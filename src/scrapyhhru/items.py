@@ -8,7 +8,7 @@
 import scrapy
 
 
-class ScrapyhhruItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class VacancyItem(scrapy.Item):
+    title = scrapy.Field()
+    description = scrapy.Field()
+
